@@ -1,19 +1,26 @@
+import java.util.Arrays;
 import java.util.List;
 
 public class Jelszo {
-    static char[] specKarakterek = { '.', ',', ':', ';' };
+    static List<Character> specKarakterek = Arrays.asList('.', ',', ':', ';');
 
     public static boolean isStrong(String szo) {
         boolean kisbetu = false, nagybetu = false, ketSzam = false, specialisKarakter = false;
         int db = 0;
-        for (char k : szo.toCharArray()) {
-            if (!kisbetu && Character.isLowerCase(k)) {
+        for (int i = 0; i < szo.length(); i++) {
+            if (!kisbetu && Character.isLowerCase(szo.charAt(i))) {
                 kisbetu = true;
+                continue;
             }
-            if (!nagybetu && Character.isUpperCase(k)) {
+            if (!nagybetu && Character.isUpperCase(szo.charAt(i))) {
                 nagybetu = true;
+                continue;
             }
-            if (db < 2 && Character.isDigit(k)) {
+            if (!specialisKarakter && specKarakterek.contains(szo.charAt(i))) {
+                specialisKarakter = true;
+                continue;
+            }
+            if (db < 2 && Character.isDigit(szo.charAt(i))) {
                 db++;
             }
         }
