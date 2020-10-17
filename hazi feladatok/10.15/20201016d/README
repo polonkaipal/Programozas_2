@@ -1,0 +1,20 @@
+főátló és mellékátló összege
+
+Írjon programot, amiben előállít egy 5 x 5 -ös méretű, egészeket tartalmazó mátrixot. A mátrix elemeit random számokkal töltse fel, melyek a [0, 99] zárt intervallumba esnek.
+
+Írjon egy metódust (eljárást), amely kiírja a képernyőre a mátrix tartalmát.
+
+Írjon egy metódust (függvényt), amely megkapja a mátrixot, s visszaadja a főátlóban és a mellékátlóban lévő elemek összegét.
+
+Megjegyzés #1
+
+Az 5-ös számot jó lenne nem beleégetni a forráskódba. A bűvös számokat (magic numbers) nem szeretjük a forráskódokban; C-ben erre ott voltak a nevesített konstansok. Ha később módosítani akarjuk a programot, s pl. egy 9 x 9 -es mátrix kellene, akkor jó lenne, ha csak egyetlen helyen kellene átírni az 5-öst 9-esre. Java-ban ezt hogyan lehet szépen megoldani?
+
+Megjegyzés #2
+
+A könnyebb tesztelés miatt érdemes úgy megírni a programot, hogy minden alkalommal ugyanazokkal a random számokkal töltjük fel a mátrixot. Ehhez a randomszám-generátort ugyanazzal a seed értékkel kell inicializálni (C-ből ez ismerős lehet):
+Random random = new Random(2020);    // fix seed érték
+random.nextInt();    // A Java API-ban ennek nézzenek utána! Figyelem! Ez negatív érték is lehet!
+random.nextInt(N);   // A Java API-ban ennek is nézzenek utána! N egy egész érték.
+
+A Java API alapján döntsék el, hogy melyik nextInt() használata az előnyösebb.

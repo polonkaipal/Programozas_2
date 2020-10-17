@@ -1,0 +1,13 @@
+stringbuffer vadászat
+
+A)
+
+Vegyük elő újra a rANdOm CasE[https://arato.inf.unideb.hu/szathmary.laszlo/pmwiki/index.php?n=Prog2.20201012b] feladatot és oldjuk meg a feladatot úgy is, hogy használjuk a StringBuilder osztályt!
+
+B)
+
+Nézzük meg a korábbi házi feladatokat, s gondolkodjunk el azon, hogy hol lenne előnyösebb a StringBuilder osztály használata! Ha találtunk egy ilyen feladatot, akkor készítsük el a feladat hatékonyabb verzióját!
+
+Megjegyzés
+
+A régi megoldásainkat nem muszáj felülírni. A régi, jól működő verziókról érdemesebb talán egy másolatot készíteni, s utána a másolatot dolgozzuk át.

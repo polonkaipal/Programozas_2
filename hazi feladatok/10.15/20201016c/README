@@ -1,0 +1,20 @@
+fájlból számjegyek
+
+Adott egy szöveges állomány, ami egyetlen sort tartalmaz. A sorban számjegyek sorozata található. A számjegyek között nincs semmiféle elválasztó jel, vagyis az első sorban valójában egy nagyon nagy méretű szám szerepel.
+
+A feladat az, hogy az első sorban lévő számjegyeket egy List<Integer> típusú objektumban kapjuk meg. A korábban látott FileUtils[https://github.com/jabbalaci/Programozas_2/blob/master/helper_classes/java/olvasas_fajlbol/FileUtils.java] osztályt használjuk fel, ill. bővítsük ki egy readFirstLineAsDigits() nevű metódussal.
+
+Példa
+
+input.txt tartalma:
+
+43785
+
+a Main.java egy részlete:
+String fname = "input.txt";
+List<Integer> digits = FileUtils.readFirstLineAsDigits(fname);
+System.out.println(digits);    // [4, 3, 7, 8, 5]
+
+Konkrét feladat
+
+Mennyi a számjegyek összege a day01.txt[https://jabbalaci.github.io/teaching-assets/hun/python/AoC/2017/day01.txt] fájlban? A számjegyeket először a fent látható módon olvassuk be!

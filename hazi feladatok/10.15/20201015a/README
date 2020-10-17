@@ -1,0 +1,27 @@
+stringbuffer teszt
+
+Írjuk le az egész számokat egymás mellé 1-től N-ig. Az eredményt kezeljük sztringként. Pl. N = 20 esetén az eredmény így nézne ki: "1234567891011121314151617181920".
+
+V1.java
+
+Készítsük el a naiv változatot. Ekkor hozzunk létre egy üres sztringet és azt bővítsük konkatenációval.
+
+V2.java
+
+Haladó változat: használjuk a StringBuilder osztályt.
+
+Feladat
+
+A gyakorlaton elkészítettük a két verziót, s N = 10_000 esetén össze is hasonlítottuk a futási időket. A két verziót úgy módosítottuk, hogy előállítottuk az eredmény sztringet, de ennek csak a hosszát írattuk ki.
+
+Tipp: futási idők tesztelésekor minimalizáljuk az stdout-ra való írást, ui. ez minden esetben nagyon lassú művelet (nem csak Java-ban, hanem más nyelvek esetén is)! Ha sokat írunk a képernyőre, akkor emiatt (is) lassú lesz a programunk! Nem a lényeget fogjuk mérni, hanem azt, hogy milyen gyorsan / lassan ír a programunk az stdout-ra!
+
+a) Teszteljük a futási redményeket N = 100_000 és N = 1_000_000 esetén. Ha a naiv változat túl sokáig fut, akkor pár perc után le lehet lőni.
+
+b) A tesztelés során mind a két forráskódban ugyanazt az N értéket kell beállítani, hiszen csak így lesz korrekt a teszt. Azért, hogy ne kelljen két helyen frissíteni az N értékét, járjunk el a következőképpen:
+
+Hozzunk létre egy config.txt nevű állományt, s ebben tároljuk le az N értékét. A file egyetlen sort tartalmazzon, s ebben a sorban az N értéke szerepeljen. A szám megadása során lehessen használni az '_' jelet is a könnyebb olvashatóság kedvéért. Mind a V1.java, mind a V2.java az N értékét előbb ebből a fájlból olvassa be!
+
+A config.txt egy lehetséges tartalma (példa):
+
+100_000

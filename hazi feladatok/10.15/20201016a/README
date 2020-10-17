@@ -1,0 +1,15 @@
+palindróm
+
+Egy szót akkor nevezünk palindrómnak, ha visszafelé olvasva is ugyanazt a szót kapjuk, pl. "apa".
+
+A)
+
+Írja meg a StringUtils.isPalindrome() metódust (függvényt), ami kap egy sztringet, s eldönti, hogy az adott szó palindróm-e vagy sem.
+
+B)
+
+A https://github.com/jabbalaci/Programozas_2/tree/master/words oldalon találnak egy "words_alpha.txt" nevű állományt. A file-ban soronként egy szó szerepel.
+
+Írjon programot, ami elemzi a file tartalmát, s kiírja a képernyőre a palindróm szavak számát.
+
+Extra kérdés: az eredmény (mint szám) palindróm-e?
