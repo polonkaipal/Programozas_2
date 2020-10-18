@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class Main {
     private static final int N = 5;
-    private static final int MAX = 99;
+    private static final int MAX = 100;  // [0 - 99] zárt intervallum
 
     public static void feltolt(int[][] m) {
         Random r = new Random(2020);
