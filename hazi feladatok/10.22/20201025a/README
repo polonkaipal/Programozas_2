@@ -1,0 +1,22 @@
+szöveges állomány tartalmának beolvasása sztringként
+
+Bővítsük ki a korábbról már ismert FileUtils osztályt egy read() metódussal, ami megkapja egy szöveges file nevét, majd visszaadja a file teljes tartalmát sztringként.
+
+Példa
+
+text.txt:
+
+first
+second
+last
+
+kódrészlet:
+
+String content = FileUtils.read("text.txt");
+System.out.println("'" + content + "'");
+
+kimenet:
+
+'first
+second
+last'
