@@ -1,0 +1,16 @@
+elemek szorzata
+
+Példa:
+
+System.out.println(product());             // 1
+System.out.println(product(2));            // 2
+System.out.println(product(2, 5));         // 10
+System.out.println(product(2, 5, 10));     // 100
+System.out.println(product(2, 5, 10, 3));  // 300
+
+Feladat: implementáljuk a product() nevű metódust, ami a paraméterül kapott egész számok szorzatát adja vissza.
+
+Tippek
+
+    Tudjuk, hogy egy üres tömbben az elemek szorzata 1. (Megjegyzés: egy üres tömbben az elemek összege 0).
+    varargs[https://arato.inf.unideb.hu/szathmary.laszlo/pmwiki/index.php?n=Prog2.20201102d]

@@ -1,0 +1,37 @@
+randint(), randrange(), choice()
+
+Írjunk egy RandUtils nevű osztályt, amiben a következő statikus metódusokat kellene implementálni:
+
+randint()
+
+A randint() metódust két argumentummal hívjuk meg: egy alsó limittel (also), és egy felső limittel (felso). Mindkettő legyen int típusú. A metódus adjon vissza egy random egész értéket az [also, felso] zárt intervallumból.
+
+Példa:
+
+int result = RandUtils.randint(70, 72);
+
+Ekkor result értéke vagy 70, vagy 71, vagy 72 lehet.
+
+randrange()
+
+Hasonló az előzőhöz, csak itt a metódus egy olyan egész értéket adjon vissza, ami az [also, felso) balról zárt, jobbról nyílt intervallumból kerüljön ki.
+
+Példa:
+
+int result = RandUtils.randrange(70, 72);
+
+Ekkor result értéke vagy 70, vagy 71 lehet. A felső limitet (72) már nem adhatja vissza a metódus!
+
+choice()
+
+Példa:
+
+List<Integer> szamok = List.of(1, 2, 3, 4, 5, 6);
+int result = RandUtils.choice(szamok);
+
+A metódus kap egy egészeket tartalmazó listát, s visszaadja a lista egy véletlenszerűen kiválasztott elemét.
+
+Tippek
+
+    DRY! Don't repeat yourself!
+    A Random osztályt egy alkalmazásban elég csak egyszer példányosítani! Ellenőrizzük le, hogy a program futása alatt hány Random típusú objektumot hozunk létre! Ez lehetőleg legyen 1.
