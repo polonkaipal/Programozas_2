@@ -1,5 +1,5 @@
 public class Path {
-    public String p;
+    private String p;
 
     @Override
     public String toString() {
