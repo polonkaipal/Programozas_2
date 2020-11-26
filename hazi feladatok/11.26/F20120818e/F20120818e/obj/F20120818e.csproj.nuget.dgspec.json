@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/11.26/F20120818e/F20120818e/F20120818e.csproj": {}
+  },
+  "projects": {
+    "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/11.26/F20120818e/F20120818e/F20120818e.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/11.26/F20120818e/F20120818e/F20120818e.csproj",
+        "projectName": "F20120818e",
+        "projectPath": "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/11.26/F20120818e/F20120818e/F20120818e.csproj",
+        "packagesPath": "/home/polonkaipal/.nuget/packages/",
+        "outputPath": "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/11.26/F20120818e/F20120818e/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/polonkaipal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
