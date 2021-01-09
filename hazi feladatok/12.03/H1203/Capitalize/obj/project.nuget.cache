@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zI2DZ1kMNPq842RaoyEQBapqVqw/gzBECMb9CS+5D7wytGRE++3WjNipvemuMoqdZTf9BotSOVo+06y6NpT01Q==",
+  "success": true,
+  "projectFilePath": "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/12.03/H1203/Capitalize/Capitalize.csproj",
+  "expectedPackageFiles": [
+    "/home/polonkaipal/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

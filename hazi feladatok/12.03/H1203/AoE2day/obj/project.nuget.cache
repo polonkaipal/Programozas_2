@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VN5qHwvCYFHUn8UciLP94+uzCrRKdDd5h7XOcMCLiEhZjXyEaeTaUdA7whNNC1ITayEcbJucrK0IFnFn9kqNXQ==",
+  "success": true,
+  "projectFilePath": "/home/polonkaipal/Dropbox/Egyetem/3. félév/prog 2/polonkaipal/Programozas_2/hazi feladatok/12.03/H1203/AoE2day/AoE2day.csproj",
+  "expectedPackageFiles": [
+    "/home/polonkaipal/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
